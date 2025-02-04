@@ -7,4 +7,8 @@
     version = "11.0.0.0";
     homepage = "https://github.com/jellyfin/jellyfin-plugin-kodisyncqueue";
   };
+  ani-sync = {
+    version = "3.7.0.0";
+    homepage = "https://github.com/vosmiic/jellyfin-ani-sync";
+  };
 }

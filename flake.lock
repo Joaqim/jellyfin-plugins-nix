@@ -12,6 +12,18 @@
         "url": "https://github.com/9p4/jellyfin-plugin-sso/releases/download/v3.5.2.4/sso-authentication_3.5.2.4.zip"
       }
     },
+    "ani-sync": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-EwZzAGEr6NBuohOa7RloreLbKR5+YbVyx64DklYuggo=",
+        "type": "file",
+        "url": "https://github.com/vosmiic/jellyfin-ani-sync/releases/download/v3.7/10.10.3.-.ani-sync_3.7.0.0.zip"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://github.com/vosmiic/jellyfin-ani-sync/releases/download/v3.7/10.10.3.-.ani-sync_3.7.0.0.zip"
+      }
+    },
     "kodisyncqueue": {
       "flake": false,
       "locked": {
@@ -43,6 +55,7 @@
     "root": {
       "inputs": {
         "SSO-Auth": "SSO-Auth",
+        "ani-sync": "ani-sync",
         "kodisyncqueue": "kodisyncqueue",
         "nixpkgs": "nixpkgs"
       }
